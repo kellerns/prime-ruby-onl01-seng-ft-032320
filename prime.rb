@@ -10,4 +10,5 @@ def prime?(number)
       true
     end  
     i += 1
+  end
 end
