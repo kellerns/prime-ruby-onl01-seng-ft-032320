@@ -10,9 +10,7 @@ def prime?(number)
   if number == 1 || number == 2 || number == 3
     return true
   else
-    while i < (range.length - 1)
-      tf_array << (number % range[i] == 0)
-      i += 1
+    range.each
     end
     tf_array.any?
   end
