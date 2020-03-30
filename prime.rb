@@ -1,5 +1,5 @@
 def prime?(number)
-  n = 2
+  square_root = number / number
   
   
 end
