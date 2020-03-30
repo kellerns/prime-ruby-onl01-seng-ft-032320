@@ -1,5 +1,5 @@
 def prime?(number)
-  if number < 0
+  if number <= 0
     return false
   end
   square_root = number**0.5
