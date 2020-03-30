@@ -15,7 +15,7 @@ def prime?(number)
   end
   end
     if tf_array.any?
-      false
+      true
     end
  
 end
