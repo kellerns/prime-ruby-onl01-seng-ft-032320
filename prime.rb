@@ -7,7 +7,7 @@ def prime?(number)
   range = (1..round).to_a
   i = 1
   tf_array = []
-  if number == 1 || number == 2
+  if number == 1 || number == 2 || number == 3
     return true
   else
     while i < (range.length - 1)
