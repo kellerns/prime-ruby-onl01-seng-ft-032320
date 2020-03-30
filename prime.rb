@@ -11,7 +11,7 @@ def prime?(number)
     return true
   else
     while i < (range.length - 1)
-      tf_array << (number / range[i]).is_a?(Integer)
+      tf_array << (number % range[i] == 0)
       i += 1
     end
     tf_array.any?
