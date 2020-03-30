@@ -1,5 +1,5 @@
 def prime?(number)
-  if number <= 0
+  if number <= 1
     return false
   end
   square_root = number**0.5
@@ -7,7 +7,7 @@ def prime?(number)
   range = (2..round).to_a
   i = 1
   tf_array = []
-  if number == 1 || number == 2 || number == 3
+  if number == 2 || number == 3
     return true
   else
     range.each do |num|
