@@ -11,7 +11,7 @@ def prime?(number)
     return true
   else
     range.each do |num|
-      tf_array << << (number % num == 0)
+      tf_array << (number % num == 0)
   end
   
     tf_array.any?
