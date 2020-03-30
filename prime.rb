@@ -4,7 +4,7 @@ def prime?(number)
   range = (1..round).to_a
   i = 0
   while i < range.length
-    if (number / range[i]).is? Integer
+    if (number / range[i]).is_a? Integer
       false
     else
       true
