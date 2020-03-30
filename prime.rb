@@ -7,7 +7,7 @@ def prime?(number)
     return true
   else
     while i < range.length
-      if (number / range[i]).is_a? Integer
+      if (number / range[i]).is_a?(Integer)
         false
       else
         true
