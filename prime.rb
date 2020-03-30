@@ -4,7 +4,7 @@ def prime?(number)
   end
   square_root = number**0.5
   round = square_root
-  range = (1..round).to_a
+  range = (2..round).to_a
   i = 1
   tf_array = []
   if number == 1 || number == 2 || number == 3
