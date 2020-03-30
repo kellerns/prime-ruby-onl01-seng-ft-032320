@@ -14,8 +14,5 @@ def prime?(number)
       tf_array << (number % num == 0)
   end
   end
-    if tf_array.any?
-      true
-    end
  
 end
