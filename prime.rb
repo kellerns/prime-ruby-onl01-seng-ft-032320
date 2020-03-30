@@ -3,12 +3,15 @@ def prime?(number)
   round = square_root.round
   range = (1..round).to_a
   i = 0
-  while i < range.length
-    if (number / range[i]).is_a? Integer
-      false
-    else
-      true
-    end  
-    i += 1
-  end
+  if number == 1 || number == 2
+    true
+  else
+    while i < range.length
+      if (number / range[i]).is_a? Integer
+        false
+      else
+        true
+      end  
+      i += 1
+    end
 end
