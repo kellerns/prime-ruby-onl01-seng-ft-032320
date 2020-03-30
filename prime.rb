@@ -10,7 +10,8 @@ def prime?(number)
   if number == 1 || number == 2 || number == 3
     return true
   else
-    range.each
+    range.each do |num|
+      
     end
     tf_array.any?
   end
