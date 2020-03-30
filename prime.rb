@@ -1,4 +1,7 @@
 def prime?(number)
+  if number < 0
+    return false
+  end
   square_root = number**0.5
   round = square_root
   range = (1..round).to_a
